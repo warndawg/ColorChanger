@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body {
+			background-color: white;
+		};
+		.container {
+			margin-left: auto;
+			margin-right: auto;
+		};
+	</style>
+	<title>Color Changer</title>
+</head>
+<body>
+	<div class="container">
+	<div id="colorButton"> 
+	</div>	
+	<div>
+		<select id="colorOptions">
+			<option value="" disabled selected>Select Color</option>
+		</select>
+		<button onclick="addButton()">Add</button>
+	</div>		
+	<div>
+		<button onclick="removeButton()">Remove current</button>
+	</div>
+	</div>
+	<script type="text/javascript" src="colorChanger.js"></script>
+</body>
+</html>
